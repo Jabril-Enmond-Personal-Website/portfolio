@@ -1,37 +1,54 @@
 body {
-    margin: 0
+    margin: 0;
+    background-color: black;
+
 }
 
 h1 {
     text-align: center;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #1d1d1d;
     font-size: 25px;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-    border-right:1px solid #bbb;
-  }
-  
-  li:last-child {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
     border-right: none;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #0075FF;
-  }
-  
+}
+
+li a:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+img {
+    float: left;
+    width: 100%;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+main {
+    background-color: #333; 
+    color:  white;
+    overflow: hidden;
+    margin: 0 25px;
+
+}
