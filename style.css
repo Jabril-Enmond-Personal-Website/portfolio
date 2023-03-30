@@ -19,7 +19,7 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #ffffff;
 }
 
 li:last-child {
@@ -28,7 +28,7 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,15 +40,35 @@ li a:hover {
 
 img {
     float: left;
-    width: 100%;
     margin: 20px;
     padding-left: 10px;
 }
 
 main {
     background-color: #333; 
-    color:  white;
+    color:  rgb(255, 255, 255);
     overflow: hidden;
     margin: 0 25px;
+    font-size: 30px;
 
 }
+
+.active {
+    color: black;
+}
+
+hr.solid {
+    border-top: 3px solid #ffffff;
+  }
+
+  .right-image {
+    float: right;
+  }
+  
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+  
+  
+  
