@@ -5,5 +5,5 @@ A website about myself !
 
 ## Technology
 - HTML
--CSS
--JavaScript
+- CSS
+- JavaScript
